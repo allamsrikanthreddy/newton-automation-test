@@ -184,7 +184,7 @@ public class MyPreferrencePage extends DesktopBasePage {
         }
 
         String option2Priority2Coverage = data.get("Coverage on Priority 2 O2");
-        if (!(option2Priority2Coverage.equals("") || option2Priority2Coverage.equals("0"))) {
+        if (!(option2Priority2Coverage.equals("") || option2Priority2Coverage.equals("0 "))) {
             WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option2-priority2-coverage']"));
             String coverage = coverageElement.getAttribute("innerHTML");
             String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
