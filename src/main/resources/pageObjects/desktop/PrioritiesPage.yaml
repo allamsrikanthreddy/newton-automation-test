@@ -1,0 +1,129 @@
+locators:
+- pageName: "PrioritiesPage"
+  locatorName: "death"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I pass away (Death)']"
+
+- pageName: "PrioritiesPage"
+  locatorName: "deathAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I pass away (Death)']/../following-sibling::div[2]/button"
+  
+- pageName: "PrioritiesPage"
+  locatorName: "deathIndex"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I pass away (Death)']/../following-sibling::div"
+  
+- pageName: "PrioritiesPage"
+  locatorName: "lateCriticalIlness"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I encounter late critical illness']"
+
+- pageName: "PrioritiesPage"
+  locatorName: "lateCriticalIlnessAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I encounter late critical illness']/../following-sibling::div[2]/button"
+  
+- pageName: "PrioritiesPage"
+  locatorName: "lateCriticalIlnessIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='I encounter late critical illness']/../following-sibling::div)[1]"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "TPD"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I suffer from TPD']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "TPDAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I suffer from TPD']/../following-sibling::div[2]/button"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "TPDIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='I suffer from TPD']/../following-sibling::div)[1]"
+  
+  
+  pageName: "PrioritiesPage"
+  locatorName: "earlyCriticalIllness"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I encounter early critical illness']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "earlyCriticalIllnessIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='I encounter early critical illness']/../following-sibling::div)[1]"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "earlyCriticalIllnessAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I encounter early critical illness']/../following-sibling::div[2]/button"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "diagnosedWithCancer"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I am diagnosed with cancer']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "diagnosedWithCancerIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='I am diagnosed with cancer']/../following-sibling::div)[1]"
+  
+  
+  pageName: "PrioritiesPage"
+  locatorName: "diagnosedWithCancerAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='I am diagnosed with cancer']/../following-sibling::div[2]/button"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myRetirement"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='My retirement']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myRetirementIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='My retirement']/../following-sibling::div)[1]"
+  
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myRetirementAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='My retirement']/../following-sibling::div[2]/button"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "otherGoals"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Other Goals (General Savings)']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "otherGoalsIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='Other Goals (General Savings)']/../following-sibling::div)[1]"
+  
+  
+  pageName: "PrioritiesPage"
+  locatorName: "otherGoalsAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Other Goals (General Savings)']/../following-sibling::div[2]/button"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myChildrensSavings"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Other Goals (General Savings)']"
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myChildrensSavingsIndex"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='Other Goals (General Savings)']/../following-sibling::div)[1]"
+  
+  
+  pageName: "PrioritiesPage"
+  locatorName: "myChildrensSavingsAdd"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='My Children's savings']/../following-sibling::div[2]/button"
+  
+  
+  
+  

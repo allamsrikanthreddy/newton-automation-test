@@ -1,0 +1,105 @@
+locators:
+- pageName: "LandingPage"
+  locatorName: "HowDoesItWork"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class = 'header-options' and text()='HOW DOES IT WORK']"
+
+- pageName: "LandingPage"
+  locatorName: "LifeInsurance101"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class = 'header-options' and text()='LIFE INSURANCE 101']"
+
+- pageName: "LandingPage"
+  locatorName: "Reviews"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class = 'header-options' and text()='REVIEWS']"
+
+- pageName: "LandingPage"
+  locatorName: "OurStory"
+  locatorType: "XPATH"
+  locatorValue: "//div[@class = 'header-options' and text()='OUR STORY']"
+
+- pageName: "LandingPage"
+  locatorName: "PersonalDetails"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Enter your personal details']"
+
+- pageName: "LandingPage"
+  locatorName: "txtLifeInsurance"
+  locatorType: "XPATH"
+  locatorValue: "//div[contains(text(),'What and why life insurance')]"
+
+- pageName: "LandingPage"
+  locatorName: "WhatSaying"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='What others are saying']"
+
+- pageName: "LandingPage"
+  locatorName: "Story"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='The story of Newton']"
+
+- pageName: "LandingPage"
+  locatorName: "StartNow"
+  locatorType: "XPATH"
+  locatorValue: "(//div[text()='START NOW'])[1]"
+  
+- pageName: "LandingPage"
+  locatorName: "HealthInsurance"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='Health Insurance']"  
+
+- pageName: "LandingPage"
+  locatorName: "LifeInsurance"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='Life Insurance']"
+
+- pageName: "LandingPage"
+  locatorName: "GeneralInsurance"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='General Insurance']"
+  
+- pageName: "LandingPage"
+  locatorName: "PrivacyPolicy"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='Privacy Policy']"
+  
+- pageName: "LandingPage"
+  locatorName: "SecurityPolicy"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='Security Policy']"
+  
+- pageName: "LandingPage"
+  locatorName: "TermsConditions"
+  locatorType: "XPATH"
+  locatorValue: "//a/div[text()='Terms & Conditions']"
+  
+- pageName: "LandingPage"
+  locatorName: "expand"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Why do I need Life Insurance?']/span[text()='+']"
+  
+- pageName: "LandingPage"
+  locatorName: "minimize"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='Why do I need Life Insurance?']/span[text()='-']"
+  
+- pageName: "LandingPage"
+  locatorName: "facebook"
+  locatorType: "XPATH"
+  locatorValue: "//i[@class='fab fa-facebook socialMedia-icons']"
+  
+- pageName: "LandingPage"
+  locatorName: "instagram"
+  locatorType: "XPATH"
+  locatorValue: "//i[@class='fab fa-instagram socialMedia-icons']"
+  
+- pageName: "LandingPage"
+  locatorName: "linkedin"
+  locatorType: "XPATH"
+  locatorValue: "//i[@class='fab fa-linkedin socialMedia-icons']"
+  
+- pageName: "LandingPage"
+  locatorName: "youtube"
+  locatorType: "XPATH"
+  locatorValue: "//i[@class='fab fa-youtube socialMedia-icons']"

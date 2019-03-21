@@ -1,0 +1,45 @@
+locators:
+- pageName: "DependentsPage"
+  locatorName: "JustMySelf"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='JUST MYSELF']"
+
+- pageName: "DependentsPage"
+  locatorName: "JustMySelfimg"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='JUST MYSELF']/following-sibling::img"
+
+- pageName: "DependentsPage"
+  locatorName: "Spouse"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='SPOUSE']"
+
+- pageName: "DependentsPage"
+  locatorName: "Spouseimg"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='SPOUSE']/following-sibling::img"
+
+- pageName: "DependentsPage"
+  locatorName: "Children"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='CHILDREN']"
+
+- pageName: "DependentsPage"
+  locatorName: "Childrenimg"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='CHILDREN']/following-sibling::img"
+
+- pageName: "DependentsPage"
+  locatorName: "Parents"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='PARENTS']"
+
+- pageName: "DependentsPage"
+  locatorName: "ParentsImg"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='PARENTS']/following-sibling::img"
+
+- pageName: "DependentsPage"
+  locatorName: "Next"
+  locatorType: "ID"
+  locatorValue: "advisor-about-you-dependent-progress-btn"

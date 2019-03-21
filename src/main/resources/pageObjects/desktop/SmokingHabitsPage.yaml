@@ -1,0 +1,25 @@
+locators:
+- pageName: "SmokingHabitsPage"
+  locatorName: "yes"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='YES']"
+
+- pageName: "SmokingHabitsPage"
+  locatorName: "no"
+  locatorType: "XPATH"
+  locatorValue: "//div[text()='YES']"
+
+- pageName: "SmokingHabitsPage"
+  locatorName: "Next"
+  locatorType: "ID"
+  locatorValue: "advisor-about-you-dependent-progress-btn"
+  
+- pageName: "SmokingHabitsPage"
+  locatorName: "YesImg"
+  locatorType: "ID"
+  locatorValue: "//div[text()='YES']/following-sibling::img"
+  
+- pageName: "SmokingHabitsPage"
+  locatorName: "NoImg"
+  locatorType: "ID"
+  locatorValue: "//div[text()='NO']/following-sibling::img"

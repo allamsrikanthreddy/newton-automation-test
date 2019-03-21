@@ -1,0 +1,10 @@
+locators:
+- pageName: "WelcomePage"
+  locatorName: "Confirm"
+  locatorType: "XPATH"
+  locatorValue: "//span[@class='checkmark']"
+
+- pageName: "WelcomePage"
+  locatorName: "LetsGo"
+  locatorType: "XPATH"
+  locatorValue: "(//button[contains(text(),'S GO')])[1]"
