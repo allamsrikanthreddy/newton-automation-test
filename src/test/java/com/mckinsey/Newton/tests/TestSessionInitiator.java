@@ -143,7 +143,7 @@ public class TestSessionInitiator {
     
     @DataProvider(name="algotestdata")
     public static Iterator<Object[]>getAlgoData(Method M)throws Exception{
-    	List<Hashtable<String, String>> a = ExcelsUtils.readFile(System.getProperty("user.dir")+"\\src\\main\\resources\\TestData\\MasterTestData.xlsx","AlgoTest",M.getName());
+    	List<Hashtable<String, String>> a = ExcelsUtils.readFile(System.getProperty("user.dir")+"/src/main/resources/TestData/MasterTestData.xlsx","AlgoTest",M.getName());
     	List<Object[]> testdata = new ArrayList<Object[]>();
     	Iterator<Hashtable<String, String>> dataIterator= a.iterator();
     	while(dataIterator.hasNext()) {
