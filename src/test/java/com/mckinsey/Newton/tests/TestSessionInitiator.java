@@ -103,7 +103,7 @@ public class TestSessionInitiator {
 
     @BeforeSuite
     public void beforeSuit() {
-    	extent = new ExtentReports(System.getProperty("user.dir") + "./test-output/Result.html");
+    	extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/Result.html");
     	extent.loadConfig(new File(System.getProperty("user.dir") + "/extent-config.xml"));
     	
     }
