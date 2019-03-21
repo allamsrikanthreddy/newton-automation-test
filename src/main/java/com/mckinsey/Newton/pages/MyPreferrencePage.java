@@ -148,59 +148,80 @@ public class MyPreferrencePage extends DesktopBasePage {
         //Option 1
         String option1Priority1Coverage = data.get("Coverage on Priority 1 O1");
         if (!(option1Priority1Coverage.equals("") || option1Priority1Coverage.equals("0"))) {
-            WebElement p1o1 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option1-priority1-coverage'])[1]"));
-            verifyText(p1o1.getText().replace("COVERAGE: $", "").replace(",", ""), option1Priority1Coverage, "Verify Option 1 Priority 1 --  Expected:: " + option1Priority1Coverage + " Actual:: " + p1o1.getText());
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {}
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option1-priority1-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option1Priority1Coverage, "Verify Option 1 Priority 1 --  Expected:: " + option1Priority1Coverage + " Actual:: " + alterredCoverage);
         }
 
         String option1Priority2Coverage = data.get("Coverage on Priority 2 O1");
         if (!(option1Priority2Coverage.equals("") || option1Priority2Coverage.equals("0"))) {
-            WebElement p2o1 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option1-priority2-coverage'])[1]"));
-            verifyText(p2o1.getText().replace("COVERAGE: $", "").replace(",", ""), option1Priority2Coverage, "Verify Option 1 Priority 2 --  Expected:: " + option1Priority2Coverage + " Actual:: " + p2o1.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option1-priority2-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option1Priority2Coverage, "Verify Option 1 Priority 2 --  Expected:: " + option1Priority2Coverage + " Actual:: " + alterredCoverage);
         }
 
         String option1Priority3Coverage = data.get("Coverage on Priority 3 O1");
         if (!(option1Priority3Coverage.equals("") || option1Priority3Coverage.equals("0"))) {
-            WebElement p3o1 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option1-priority3-coverage'])[1]"));
-            verifyText(p3o1.getText().replace("COVERAGE: $", "").replace(",", ""), option1Priority3Coverage, "Verify Option 1 Priority 3 --  Expected:: " + option1Priority3Coverage + " Actual:: " + p3o1.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option1-priority3-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option1Priority3Coverage, "Verify Option 1 Priority 3 --  Expected:: " + option1Priority3Coverage + " Actual:: " + alterredCoverage);
         }
 
         //Option2
         String option2Priority1Coverage = data.get("Coverage on Priority 1 O2");
         if (!(option2Priority1Coverage.equals("") || option2Priority1Coverage.equals("0"))) {
-            WebElement p2o2 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option2-priority1-coverage'])[1]"));
-            verifyText(p2o2.getText().replace("COVERAGE: $", "").replace(",", ""), option2Priority1Coverage, "Verify Option 2 Priority 1 --  Expected:: " + option2Priority1Coverage + " Actual:: " + p2o2.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option2-priority1-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option2Priority1Coverage, "Verify Option 2 Priority 1 --  Expected:: " + option2Priority1Coverage + " Actual:: " + alterredCoverage);
 
         }
 
         String option2Priority2Coverage = data.get("Coverage on Priority 2 O2");
         if (!(option2Priority2Coverage.equals("") || option2Priority2Coverage.equals("0"))) {
-            WebElement p2o2 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option2-priority2-coverage'])[1]"));
-            verifyText(p2o2.getText().replace("COVERAGE: $", "").replace(",", ""), option2Priority2Coverage, "Verify Option 2 Priority 2 --  Expected:: " + option2Priority2Coverage + " Actual:: " + p2o2.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option2-priority2-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option2Priority2Coverage, "Verify Option 2 Priority 2 --  Expected:: " + option2Priority2Coverage + " Actual:: " + alterredCoverage);
         }
 
         String option2Priority3Coverage = data.get("Coverage on Priority 3 O2");
         if (!(option2Priority3Coverage.equals("") || option2Priority3Coverage.equals("0"))) {
-            WebElement p3o2 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option2-priority3-coverage'])[1]"));
-            verifyText(p3o2.getText().replace("COVERAGE: $", "").replace(",", ""), option2Priority3Coverage, "Verify Option 2 Priority 3 --  Expected:: " + option2Priority3Coverage + " Actual:: " + p3o2.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option2-priority3-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option2Priority3Coverage, "Verify Option 2 Priority 3 --  Expected:: " + option2Priority3Coverage + " Actual:: " + alterredCoverage);
         }
 
         //Option 3
         String option3Priority1Coverage = data.get("Coverage on Priority 1 O3");
         if (!(option3Priority1Coverage.equals("") || option3Priority1Coverage.equals("0"))) {
-            WebElement p2o3 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option3-priority1-coverage'])[1]"));
-            verifyText(p2o3.getText().replace("COVERAGE: $", "").replace(",", ""), option3Priority1Coverage, "Verify Option 3 Priority 1 --  Expected:: " + option3Priority1Coverage + " Actual:: " + p2o3.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option3-priority1-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option3Priority1Coverage, "Verify Option 3 Priority 1 --  Expected:: " + option3Priority1Coverage + " Actual:: " + alterredCoverage);
         }
 
         String option3Priority2Coverage = data.get("Coverage on Priority 2 O3");
         if (!(option3Priority2Coverage.equals("") || option3Priority2Coverage.equals("0"))) {
-            WebElement p2o3 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option3-priority2-coverage'])[1]"));
-            verifyText(p2o3.getText().replace("COVERAGE: $", "").replace(",", ""), option3Priority2Coverage, "Verify Option 3 Priority 2 --  Expected:: " + option3Priority2Coverage + " Actual:: " + p2o3.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option3-priority2-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option3Priority2Coverage, "Verify Option 3 Priority 2 --  Expected:: " + option3Priority2Coverage + " Actual:: " + alterredCoverage);
         }
 
         String option3Priority3Coverage = data.get("Coverage on Priority 3 O3");
         if (!(option3Priority3Coverage.equals("") || option3Priority3Coverage.equals("0"))) {
-            WebElement p3o3 = driver.findElement(By.xpath("(//div[contains(@class,'table-suggestions-priority-coverage-amount') and @id = 'option3-priority3-coverage'])[1]"));
-            verifyText(p3o3.getText().replace("COVERAGE: $", "").replace(",", ""), option3Priority3Coverage, "Verify Option 3 Priority 3 --  Expected:: " + option3Priority3Coverage + " Actual:: " + p3o3.getText());
+            WebElement coverageElement = driver.findElement(By.xpath("//div[@class='slick-list']//div[@id='option3-priority3-coverage']"));
+            String coverage = coverageElement.getAttribute("innerHTML");
+            String alterredCoverage = coverage.replace("COVERAGE: $", "").replace(",", "");
+            verifyText(alterredCoverage, option3Priority3Coverage, "Verify Option 3 Priority 3 --  Expected:: " + option3Priority3Coverage + " Actual:: " + alterredCoverage);
         }
         //}
 
